@@ -1,30 +1,30 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial", "Helvetica", sans-serif;
   font-size: 15px;
   line-height: 1.6;
-  color: black;
-  background-color: white;
+  color: #000000;
+  background-color: #ffffff;
 }
 
 h1 {
-  font-size: 28px;
   margin-bottom: 5px;
+  font-size: 28px;
 }
 
 h2 {
-  font-size: 20px;
   margin-top: 30px;
-  margin-bottom: 1px solid #ccc;
   padding-bottom: 5px;
+  font-size: 20px;
+  border-bottom: 1px solid #cccccc;
 }
 
 h3 {
@@ -40,13 +40,13 @@ a {
 }
 
 .photo {
+  object-fit: cover;
   width: 160px;
   height: 160px;
-  object-fit: cover;
 }
 
 .job-title {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .nav-list {
@@ -59,19 +59,21 @@ a {
   margin-right: 10px;
 }
 
-.contacts-list, .languages-list, .education-list {
+.contacts-list,
+.languages-list,
+.education-list {
   padding-left: 0;
   list-style: none;
 }
 
 .label {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .code {
   padding: 9px;
   overflow-x: auto;
-  background-color: #ccc;
+  background-color: #cccccc;
 }
 
 .gdpr {
@@ -82,7 +84,7 @@ a {
 .footer {
   margin-top: 30px;
   padding-top: 15px;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #cccccc;
 }
 
 .footer-logo img {
