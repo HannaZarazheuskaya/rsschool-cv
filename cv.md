@@ -74,12 +74,12 @@ Currently studying Test Automation using JavaScript and WebDriverIO framework.
 ---
 
 ## Projects
-1. **Test Automation Task**
-Created in terms of the course 'Fundamentals Automated Testing in JavaScript'
+1. **Test Automation Task**  
+Created in terms of the course 'Fundamentals Automated Testing in JavaScript'  
 [Please click here to see the Automated Testing in JavaScript project](https://gitlab.com/hannazarazheuskaya/final-task-js-ta-program.git)
 
-2. **CV, Rolling Scopes School Project** 
-Created as per the Rolling Scopes School CV task.
+2. **CV, Rolling Scopes School Project**  
+Created as per the Rolling Scopes School CV task.  
 [Please click here to see the CV project](https://github.com/HannaZarazheuskaya/rsschool-cv.git)
 
 ---
