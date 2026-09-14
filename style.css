@@ -3,3 +3,89 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+a {
+  color: #176a89;
+}
+
+.photo {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.job-title {
+  font-weight: bold;
+}
+
+.nav-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.nav-list li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.contacts-list, .languages-list, .education-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.code {
+  padding: 9px;
+  overflow-x: auto;
+  background-color: #ccc;
+}
+
+.gdpr {
+  font-size: 10px;
+  font-style: italic;
+}
+
+.footer {
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid #ccc;
+}
+
+.footer-logo img {
+  width: 50px;
+  height: auto;
+}
