@@ -3,23 +3,24 @@
   "version": "1.0.0",
   "description": "https://hannazarazheuskaya.github.io/rsschool-cv/cv",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint:html": "linthtml \"*.html\" --config .linthtmlrc",
-    "lint:css": "stylelint \"*.css\""
+    "lint:html": "linthtml index.html --config linthtml.config.сjs",
+    "lint:css": "stylelint style.css",
+    "lint": "npm run lint:html && npm run lint:css"
   },
   "repository": {
-    "type": "module",
     "url": "git+https://github.com/HannaZarazheuskaya/rsschool-cv.git"
   },
   "keywords": [],
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/HannaZarazheuskaya/rsschool-cv/issues"
   },
   "homepage": "https://github.com/HannaZarazheuskaya/rsschool-cv#readme",
   "devDependencies": {
     "linthtml-config-htmlacademy": "^2.0.0",
+    "linthtml-rules-htmlacademy": "^2.0.0",
     "stylelint": "^17.15.0",
     "stylelint-config-htmlacademy": "^5.0.0"
   }
