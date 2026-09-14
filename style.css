@@ -1,5 +1,93 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+h1 {
+  margin-bottom: 5px;
+  font-size: 28px;
+}
+
+h2 {
+  margin-top: 30px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  border-bottom: 1px solid #cccccc;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+a {
+  color: #176a89;
+}
+
+.photo {
+  object-fit: cover;
+  width: 160px;
+  height: 160px;
+}
+
+.job-title {
+  font-weight: 700;
+}
+
+.nav-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.nav-list li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.contacts-list,
+.languages-list,
+.education-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.label {
+  font-weight: 700;
+}
+
+.code {
+  padding: 9px;
+  overflow-x: auto;
+  background-color: #cccccc;
+}
+
+.gdpr {
+  font-size: 10px;
+  font-style: italic;
+}
+
+.footer {
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid #cccccc;
+}
+
+.footer-logo img {
+  width: 50px;
+  height: auto;
 }
